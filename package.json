@@ -1,0 +1,42 @@
+{
+  "name": "NoAD",
+  "version": "1.0.0",
+  "description": "remove ios ads",
+  "main": "",
+  "scripts": {
+    "start": "node server/misc/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git@bitbucket.org/hosper/noad.git"
+  },
+  "keywords": [
+    "ios",
+    "remove",
+    "ads"
+  ],
+  "author": {
+    "name": "hosper",
+    "url": "https://bitbucket.org/hosper"
+  },
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "ini": "*",
+    "lodash": "*",
+    "node-static": "^0.7.6",
+    "pluralize": "^1.0.3"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.6.0",
+    "grunt-shell": "^1.1.1",
+    "grunt-template": "*",
+    "matchdep": "~0.1.2"
+  }
+}
