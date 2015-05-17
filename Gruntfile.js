@@ -74,6 +74,29 @@ module.exports = function (grunt) {
       }
     },
 
+    gitcommit: {
+      options: {
+        verbose: true
+      },
+      github: {
+        options: {
+          message: 'check in pac file'
+        },
+        files: [{
+          src: ["proxy.pac", "proxy.youku.pac"],
+          expand: true,
+          cwd: "./dist"
+        }]
+      }
+    },
+
+    gitpush: {
+      options: {
+        verbose: true
+      },
+      github: {}
+    },
+
     shell: {
       publishSae: {
         command: 'build/publish.sh ' + 'dist/proxy.youku.pac'
@@ -93,10 +116,11 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('publish', function(server) {
+    server = server || 'github';
     grunt.log.writeln('deploy to: ' + server);
 
-    if (server === 'sae') {
-      grunt.task.run(['shell:publishSae']);
+    if (server === 'github') {
+      grunt.task.run(['gitcommit:github', 'gitpush:github']);
     } else {
       grunt.log.writeln('server is not supported: ' + server);
     }
@@ -104,7 +128,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('deploy', 'deploy pac file to server', function(server) {
 
-    grunt.task.run(['proxyPac:pro', 'publish:' + server]); // TODO: distribute
+    grunt.task.run(['proxyPac:pro', 'publish']); // TODO: distribute
   });
 
   // `grunt` or `grunt default` output dev proxy.pac
