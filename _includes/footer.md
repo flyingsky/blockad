@@ -1,8 +1,4 @@
-
-
-Design by Tim O'Brien [t413.com](http://t413.com/)
+Copyright 2015 @ [FlyingSky](https://github.com/flyingsky)
 &mdash;
-[SinglePaged theme](https://github.com/t413/SinglePaged)
-&mdash;
-this site is [open source]({{ site.source_link }})
+[Jekyll Theme](https://github.com/t413/SinglePaged)
 
