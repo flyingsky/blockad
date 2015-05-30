@@ -1,0 +1,18 @@
+[
+    {
+      "q": "How it works?",
+      "a": "Safe - Yes, we don’t get any data from your internet access. Because all data access is direct as usual except the advertisement internet access, which is blocked by us."
+    },
+    {
+        "q": "Why choose us?",
+        "a": "<strong>Free</strong> - total free.<br/> <strong>Safe</strong> - we forward advertisement request to google, not our own site, so you need worry about we collect your information.<br/> <strong>Open Source</strong> - you can fork our github code to setup your own server if you like."
+    },
+    {
+        "q": "How to report bug",
+        "a": "Report > Bug"
+    },
+    {
+        "q": "Does it make internet access slow",
+        "a": "No, even faster. Because all unblocked advertisement network is direct, and advertisement network access is blocked, so save bandwidth to make it faster."
+    }
+]
