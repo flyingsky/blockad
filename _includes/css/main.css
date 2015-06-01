@@ -355,3 +355,17 @@ nav ul li:hover, nav ul li.active {
     column-count:         2;
   }
 }
+
+.slick-track {
+    position: relative !important;
+}
+
+.slick-track div:nth-child(odd):after {
+    content: "Before";
+    padding-left: 40%;
+}
+
+.slick-track div:nth-child(even):after {
+    content: "After";
+    padding-left: 40%;
+}
