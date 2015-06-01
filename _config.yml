@@ -15,10 +15,10 @@ highlighter: pygments
 
 
 ### content configuration ###
-title:       "NoAd"
-keywords:    "No Ads, Kill Ads, Ads blocker, Mobile App, Mobile Web Browser, iOS, iPhone, iPad, Android, Free, Open source"
-description: "A free open source ads cleaner for iOS and Android apps and web"
-source_link: "https://github.com/flyingsky/noad"
+title:       "BlockAd"
+keywords:    "No Ads, Kill Ads, Block Ads, Mobile App, Mobile Web Browser, iOS, iPhone, iPad, Free, Open source"
+description: "A free open source ads blocker for iOS and Android apps and web"
+source_link: "https://github.com/flyingsky/blockad"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: 'UA-32555592-2'

@@ -525,8 +525,8 @@ html { box-sizing: border-box; }
   
   
   nav .p-setup { border-color: #fab125; }
-  #setup { background-color: #fab125 !important; color: #111111; }
-  #setup a { color: #111111; }
+  #setup { background-color: #fab125 !important; color: #f8f8f8; }
+  #setup a { color: #f8f8f8; }
   #setup .sectiondivider { color: #fab125; }
 
   
