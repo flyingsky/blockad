@@ -1,0 +1,2 @@
+[URLS]
+/ads/adsWrapper.js
