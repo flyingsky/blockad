@@ -38,6 +38,7 @@ module.exports = function (grunt) {
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
   grunt.initConfig({
+    localIp: lookupLocalIp(),
     watch: {
       configFiles: {
         files: 'Gruntfile.js',
@@ -98,8 +99,11 @@ module.exports = function (grunt) {
     },
 
     shell: {
-      publishSae: {
-        command: 'build/publish.sh ' + 'dist/proxy.youku.pac'
+      startServer: {
+        options: {
+          async: true
+        },
+        command: 'node ' + 'app.js'
       }
     }
   });
