@@ -5,7 +5,7 @@
     },
     {
       "q": "Why choose us",
-      "a": "<strong>Free</strong> - total free.<br/> <strong>Safe</strong> - our pac file is static stored on github, you can see the raw file which is only filter ad provider request and forward  it to google, so you needn't worry about we collect your information.<br/> <strong>Open Source</strong> - you can <a href='https://github.com/flyingsky/blockad'>fork our github code</a> to setup your own server if you like. <strong>Support Chinese video sites even you're on aboard</strong> - Thanks for <a href='https://github.com/zhuzhuor/Unblock-Youku'>Unblock Youku</a>"
+      "a": "<strong>Free</strong> - total free.<br/> <strong>Safe</strong> - our pac file is static stored on github, you can see the raw file which is only filter ad provider request and forward  it to google, so you needn't worry about we collect your information.<br/> <strong>Open Source</strong> - you can <a href='https://github.com/flyingsky/blockad'>fork our github code</a> to setup your own server if you like.<br/> <strong>Unblock Youku</strong> - Thanks for <a href='https://github.com/zhuzhuor/Unblock-Youku'>Unblock Youku</a>, now you can use our service to watch Chinese video sites when you are outside of mainland China"
     },
     {
       "q": "How to report bug",
@@ -14,5 +14,9 @@
     {
       "q": "Does it make internet access slow",
       "a": "No, even faster. Because all unblocked advertisement network is direct, and advertisement network access is blocked, so save bandwidth to make it faster."
+    },
+    {
+      "q": "Like us",
+      "a": "Share our app or our <a href='http://flyingsky.github.io/blockad/'>web site</a> to your friend."
     }
 ]
