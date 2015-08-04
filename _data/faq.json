@@ -1,15 +1,15 @@
 [
     {
       "q": "How it works",
-      "a": "\"<em>A <a href='http://en.wikipedia.org/wiki/Proxy_auto-config'>proxy auto-config (PAC)</a> file defines how web browsers and other user agents can automatically choose the appropriate proxy server (access method) for fetching a given URL.</em>\" So we use PAC to define rules to reject all advertisement requests and allow to access normal resources as usual. But iOS doesn't support PAC with celluar."
+      "a": "A <a href='http://en.wikipedia.org/wiki/Proxy_auto-config'>proxy auto-config (PAC)</a> file defines how web browsers and other user agents can automatically choose the appropriate proxy server (access method) for fetching a given URL. We use PAC to define rules to reject all advertisement requests and allow to access normal resources as usual. But iOS doesn't support PAC with cellular, so you can only use our method to block ads when you use wifi. To disable ads when you use cellular, you go to Settings->Cellular->USE CELLULAR DATA FOR to disable that app with ads."
     },
     {
       "q": "Why choose us",
-      "a": "<strong>Free</strong> - total free.<br/> <strong>Safe</strong> - our pac file is static stored on github, you can see the raw file which is only filter ad provider request and forward  it to google, so you needn't worry about we collect your information.<br/> <strong>Open Source</strong> - you can <a href='https://github.com/flyingsky/blockad'>fork our github code</a> to setup your own server if you like."
+      "a": "<strong>Free</strong> - total free.<br/> <strong>Safe</strong> - our pac file is static stored on github, you can see the raw file which is only filter ad provider request and forward  it to google, so you needn't worry about we collect your information.<br/> <strong>Open Source</strong> - you can <a href='https://github.com/flyingsky/blockad'>fork our github code</a> to setup your own server if you like. <strong>Support Chinese video sites even you're on aboard</strong> - Thanks for <a href='https://github.com/zhuzhuor/Unblock-Youku'>Unblock Youku</a>"
     },
     {
       "q": "How to report bug",
-      "a": "You can access our <a href='https://github.com/flyingsky/blockad/issues'>github page</a> to report issue."
+      "a": "If you use our app BlockAd, you can click Actions->Bug to send us email. Or you can access our <a href='https://github.com/flyingsky/blockad/issues'>github page</a> to report issue without our app"
     },
     {
       "q": "Does it make internet access slow",
