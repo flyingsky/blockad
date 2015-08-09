@@ -20,15 +20,16 @@ keywords:    "No Ads, Kill Ads, Block Ads, Mobile App, Mobile Web Browser, iOS, 
 description: "A free open source ads blocker for iOS and Android apps and web"
 source_link: "https://github.com/flyingsky/blockad"
 favicon:     "img/favicon.ico"
-touch_icon:  "img/apple-touch-icon.png"
+touch_icon:  "img/apple-touch-icon-precomposed.png"
 google_analytics_key: 'UA-32555592-2'
 
 
 ### template colors, used site-wide via css ###
 colors:
   black:     '#111111'
-  white:     '#f8f8f8'
-  blue:      '#49a7e9'
+  white:     '#fff'
+  blue:      '#1D67F1'
+  lightblue: '#00ABF0'
   green:     '#9bcf2f'
   purple:    '#c869bf'
   orange:    '#fab125'

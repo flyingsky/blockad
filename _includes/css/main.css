@@ -19,7 +19,8 @@ html { box-sizing: border-box; }
   {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
   {% capture bg %}{% if site.colors[node.bg] %}{{ site.colors[node.bg] }}{% else %}{{ node.bg }}{% endif %}{% endcapture %}
   {% capture fg %}{% if site.colors[node.color] %}{{ site.colors[node.color] }}{% else %}{{ node.color }}{% endif %}{% endcapture %}
-  nav .p-{{id}} { border-color: {{ bg }}; }
+  {% capture w %}{{ '33%' }}{% endcapture %}
+  nav .p-{{id}} { border-color: {{ bg }}; width: {{w}}; }
   #{{id}} { background-color: {{ bg }} !important; color: {{ fg }}; }
   #{{id}} a { color: {{ fg }}; }
   #{{id}} .sectiondivider { color: {{ bg }}; }
@@ -171,8 +172,6 @@ nav ul li:hover, nav ul li.active {
   width:100%;
   min-height:300px;
   padding:210px 0;
-  background:url(img/bgnoise.png);
-  /* generated noise from noisetexturegenerator.com */
 }
 
 .section:first-of-type {
@@ -307,16 +306,23 @@ nav ul li:hover, nav ul li.active {
 
 /* mid size (tablets, landscapes) */
 @media only screen and (max-width: 679px) {
-  nav { font-size:11px; }
-  nav ul li {
-    min-width:60px;
-    line-height:40px;
+  /*nav { font-size:11px; }*/
+  /*nav ul li {*/
+    /*min-width:60px;*/
+    /*line-height:40px;*/
+  /*}*/
+
+  .section:first-of-type {
+    padding-top: 50px !important;
   }
 }
 
-/* tiny size (phones) */
+ tiny size (phones)
 @media only screen and (max-width: 380px) {
-  nav ul li { min-width:90px; line-height:20px; }
+  /*nav ul li { min-width:90px; line-height:20px; }*/
+  .section:first-of-type {
+    padding-top: 50px !important;
+  }
 }
 
 /* anything not desktop */
@@ -368,4 +374,8 @@ nav ul li:hover, nav ul li.active {
 .slick-track div:nth-child(even):after {
     content: "After";
     padding-left: 40%;
+}
+
+.download-ios {
+
 }
