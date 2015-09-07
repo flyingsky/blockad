@@ -7,6 +7,6 @@
 .googlesyndication.com
 .doubleclick.net
 .admob.com
-.gstatic.com
+#.gstatic.com
 
 [URLS]
