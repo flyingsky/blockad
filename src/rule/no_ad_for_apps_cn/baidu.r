@@ -11,3 +11,4 @@ wn.pos.baidu.com/adx.php
 [HOSTS]
 mobads.baidu.com
 hm.baidu.com
+pos.baidu.com
