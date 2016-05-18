@@ -1,5 +1,9 @@
 [
     {
+      "q": "Why I cannot find it from Apple Store",
+      "a": "I cannot afford the Apple Developer Account fee, $99/year, so my app is not available on Apple Store. But you can access <a href='https://github.com/flyingsky/blockad/wiki' target='blank'>here</a> to know how to block ads without our app. Appreciate if you can donate $1 to $10 to help BlockAd back to Apple Store. To donate you can use paypal to send money to this account guoqj58@163.com. Once I get $99 I will remove this message. Thanks."
+    },
+    {
       "q": "How it works",
       "a": "A <a href='http://en.wikipedia.org/wiki/Proxy_auto-config'>proxy auto-config (PAC)</a> file defines how web browsers and other user agents can automatically choose the appropriate proxy server (access method) for fetching a given URL. We use PAC to define rules to reject all advertisement requests and allow to access normal resources as usual. But iOS doesn't support PAC with cellular, so you can only use our method to block ads when you use wifi. To disable ads when you use cellular, you go to Settings->Cellular->USE CELLULAR DATA FOR to disable that app with ads."
     },
