@@ -1,0 +1,22 @@
+[
+    {
+      "q": "如何工作",
+      "a": "其实就是利用了<a href='http://en.wikipedia.org/wiki/Proxy_auto-config'>proxy auto-config (PAC)</a>,不过这就决定了我们只能通过设置Wifi来屏蔽广告,而无法在移动数据环境下工作.但是你可以在[设置->数据->禁止数据访问]中了禁止某些软件访问网络来屏蔽广告加载"
+    },
+    {
+      "q": "为什么要选择我们",
+      "a": "<strong>免费</strong> - 完全免费,活雷锋啊.<br/> <strong>安全</strong> - 我们的PAC文件是开源的,你可以直接看到全部内容.我们把广告请求转发给Google服务器,根本不会搜集你的任何信息.<br/> <strong>开源</strong> - 如果你有兴趣可以直接<a href='https://github.com/flyingsky/blockad'>下载</a>我们的代码来搭建你自己的服务.<br/>"
+    },
+    {
+      "q": "如何报告错误或新需求",
+      "a": "你可以点击[更多->报告错误]来发邮件给我们.或者访问我们的<a href='https://github.com/flyingsky/blockad/issues'>GitHub链接</a>直接给我们填写错误报告."
+    },
+    {
+      "q": "它会让我的网络变慢吗",
+      "a": "它会让你的网络更快.因为很多广告相关的访问被屏蔽了,你的带宽可以更多地用于内容访问."
+    },
+    {
+      "q": "喜欢我们",
+      "a": "那就推荐给你的朋友吧:<a href='http://flyingsky.github.io/blockad/'>我们的网站</a>, 或者评价我们"
+    }
+]
